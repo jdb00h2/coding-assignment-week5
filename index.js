@@ -4,9 +4,6 @@ class Book {
     this.author = author;
     this.pageCount = pageCount;
     }
-    describe() {
-        return `${this.title} was written by ${this.author}. It is ${this.pageCount} pages long.`
-    }
 }
 
 class Movie {
@@ -15,9 +12,6 @@ class Movie {
         this.director = director;
         this.runTime = runTime;
     }
-    describe() {
-        return `${this.name} was directed by ${this.director} and has a run time of ${this.runTime} minutes.`
-    }
 }
 
 class VideoGame {
@@ -25,9 +19,6 @@ class VideoGame {
         this.title = title;
         this.rating = rating;
         this.console = console;
-    }
-    describe() {
-        return `${this.name} is rated ${this.rating} and can be played on a ${this.console} console.`
     }
 }
 
@@ -262,7 +253,6 @@ class Menu {
         alert(videoGameString);
     }
 }
-
 
 let menu = new Menu();
 menu.start();
