@@ -123,7 +123,7 @@ class Menu {
         let description = ''
         if (index > -1 && index < this.books.length) {
             this.selectedBook = this.books[index];
-            description = this.selectedBook.title + ' by ' + this.selectedBook.author + ' has ' + this.selectedBook.pageCount + ' pages.'
+            description = this.selectedBook.title + ' by ' + this.selectedBook.author + ' is ' + this.selectedBook.pageCount + ' pages long.'
         }
         alert(description);
     }
