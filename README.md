@@ -1,1 +1,1 @@
-# Basic HTML menu app
+# Basic Menu app
